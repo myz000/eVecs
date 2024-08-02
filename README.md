@@ -18,7 +18,11 @@ elements. To solve the aforementioned limitation this study introduces two model
 <img src="eVec.png" alt="Example Image" width="600">
 </div>
 
-The eVec model addresses the problem by employing a triplet loss function to learn discriminative representations of legal texts concerning specific elements. The triplet loss helps in distinguishing similar legal elements from dissimilar ones by minimizing the distance between similar elements while maximizing the distance between dissimilar ones.  
+The eVec model addresses the problem by employing a triplet loss function to  learning
+representations of fact descriptions. 
+It aims to learn a disentangled
+representation that maximally preserves the information relevant to a specific element while omitting irrelevant element
+information.
 
 <div align=center>
 <img src="eVecs.png" alt="Example Image" width="600">
@@ -26,9 +30,7 @@ The eVec model addresses the problem by employing a triplet loss function to lea
 
 Extending the capabilities of the eVec model, the eVecs framework provides a comprehensive solution for learning disentangled representations across multiple legal elements. It employs multiple eVec models, each dedicated to capturing the specific characteristics of a different legal element.
 
-The eVec aims to learn a disentangled
-representation that maximally preserves the information relevant to a specific element while omitting irrelevant element
-information. The learned representations are task-independent and can be
+ The learned representations are task-independent and can be
 directly applied to multiple tasks or fine-tuned for different downstream tasks.
 The benefit of our model is even more
 noticeable when only a small quantity of labeled data is accessible.
