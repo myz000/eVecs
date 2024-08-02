@@ -1,7 +1,8 @@
-# eVecs
+# Learning Legal Text Representations via Disentangling Elements
 Implementation of paper "Learning Legal Text Representations via Disentangling Elements" published at ESWA 2024.
 
----
+
+## Overview
 Recently, a rising number of works has been focusing on tasks in the legal field for providing references to
 professionals in order to improve their work efficiency. Learning legal text representations, being the most
 common initial step, can strongly influence the performance of downstream tasks. Existing works have shown
